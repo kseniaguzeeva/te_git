@@ -37,6 +37,26 @@
 					"autocommit": true
 				}
 			}
+		},
+		"db2-1973b9e2f13-7264b8aa993c8225": {
+			"provider": "db2",
+			"driver": "db2",
+			"name": "Db2 for LUW@localhost",
+			"configuration": {
+				"host": "localhost",
+				"port": "50000",
+				"url": "jdbc:db2://localhost:50000/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"configurationId": "NONE"
+				},
+				"auth-model": "native",
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"connection-types": {
