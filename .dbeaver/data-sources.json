@@ -5,7 +5,6 @@
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL@localhost",
-			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
