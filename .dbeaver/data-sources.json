@@ -13,9 +13,6 @@
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
-				"provider-properties": {
-					"configurationId": "NONE"
-				},
 				"auth-model": "native",
 				"handlers": {
 					"ssh_tunnel": {
