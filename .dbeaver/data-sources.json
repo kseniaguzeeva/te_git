@@ -91,6 +91,7 @@
 			}
 		}
 	},
+	"virtual-models": {"postgres-jdbc-19cbd22cfd0-394fe7477ae80de1":{"postgres":{"postgres":{":1datedelgit":{"constraints":{"VIRTUAL_PK":{"type":"vpk","useAllColumns":true}}}}}}},
 	"connection-types": {
 		"dev": {
 			"name": "Development",
