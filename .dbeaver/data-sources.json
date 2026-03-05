@@ -1,5 +1,7 @@
 {
-	"folders": {},
+	"folders": {
+		"New folder": {}
+	},
 	"connections": {
 		"postgres-jdbc-19cbce2098d-2d32c336d572275e": {
 			"provider": "postgresql",
