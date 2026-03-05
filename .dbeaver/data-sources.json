@@ -43,7 +43,7 @@
 		"postgres-jdbc-19cbd22cfd0-394fe7477ae80de1": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
-			"name": "PostgreSQL@localhost 1",
+			"name": "PostgreSQL_desktop",
 			"save-password": true,
 			"folder": "New folder",
 			"configuration": {
