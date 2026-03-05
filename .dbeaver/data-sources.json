@@ -5,6 +5,7 @@
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL@localhost",
+			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
@@ -13,6 +14,9 @@
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true"
+				},
 				"auth-model": "native",
 				"handlers": {
 					"ssh_tunnel": {
