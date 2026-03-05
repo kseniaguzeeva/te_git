@@ -1,4 +1,7 @@
 {
+	"##tasksFolders": {
+		"git": {}
+	},
 	"b71f58f1-a4e5-4419-a5e5-5035a174afd4": {
 		"task": "dataExport",
 		"label": "2600git",
@@ -22,12 +25,12 @@
 				}
 			],
 			"configuration": {
-				"maxJobCount": 1,
+				"maxJobCount": 1.0,
 				"showFinalMessage": true,
 				"DatabaseTransferProducer": {
 					"extractType": "SINGLE_QUERY",
-					"segmentSize": 100000,
-					"fetchSize": 10000,
+					"segmentSize": 100000.0,
+					"fetchSize": 10000.0,
 					"openNewConnections": true,
 					"queryRowCount": true,
 					"fetchedRowsOnly": false,
@@ -38,9 +41,9 @@
 					"entityId": "postgres-jdbc-19cbd22cfd0-394fe7477ae80de1/postgres/postgres",
 					"openNewConnections": true,
 					"useTransactions": true,
-					"commitAfterRows": 10000,
+					"commitAfterRows": 10000.0,
 					"useMultiRowInsert": false,
-					"multiRowInsertBatch": 500,
+					"multiRowInsertBatch": 500.0,
 					"skipBindValues": false,
 					"disableUsingBatches": false,
 					"ignoreDuplicateRows": false,
