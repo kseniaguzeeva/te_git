@@ -39,6 +39,43 @@
 					"autocommit": true
 				}
 			}
+		},
+		"postgres-jdbc-19cbd22cfd0-394fe7477ae80de1": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL@localhost 1",
+			"save-password": true,
+			"folder": "New folder",
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true"
+				},
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"host": "db1.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PUBLIC_KEY",
+							"aliveInterval": "0",
+							"sshConnectTimeout": "10000"
+						}
+					}
+				},
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"connection-types": {
