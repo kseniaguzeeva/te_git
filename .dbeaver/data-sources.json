@@ -10,7 +10,6 @@
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL@localhost",
-			"save-password": true,
 			"folder": "New folder",
 			"configuration": {
 				"host": "localhost",
@@ -28,7 +27,7 @@
 					"ssh_tunnel": {
 						"type": "TUNNEL",
 						"enabled": true,
-						"save-password": true,
+						"save-password": false,
 						"properties": {
 							"host": "db1.dev.dbeaver.infra",
 							"port": 22.0,
