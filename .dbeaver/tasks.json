@@ -6,6 +6,7 @@
 		"task": "dataExport",
 		"label": "2600git",
 		"description": "",
+		"taskFolder": "git",
 		"createTime": "202603051146",
 		"updateTime": "202603051146",
 		"state": {
