@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="2600git">
+	<entities>
+		<data-source id="postgres-jdbc-19cbd22cfd0-394fe7477ae80de1">
+			<entity id="1" name="actor" fq-name="public.actor">
+				<path name="public"/>
+				<path name="guzeeva"/>
+			</entity>
+			<entity id="2" name="actordel" fq-name="public.actordel">
+				<path name="public"/>
+				<path name="guzeeva"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations/>
+</diagram>
