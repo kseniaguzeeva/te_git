@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="1c40a082-ee47-400d-983f-7420700ea370" data-source="postgres-jdbc-1973b742178-5350bf00e5bec861" catalog="postgres" schema="postgres"><text><![CDATA[select 1]]></text></query></queries></dataset>
