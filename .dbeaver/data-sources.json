@@ -48,7 +48,7 @@
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL_desktop",
 			"save-password": true,
-			"folder": "New folder",
+			"folder": "New folder/123",
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
