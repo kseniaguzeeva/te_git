@@ -8,6 +8,7 @@
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL@localhost",
 			"save-password": true,
+			"folder": "New folder",
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
