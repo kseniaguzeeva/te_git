@@ -48,6 +48,7 @@
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL_desktop",
 			"save-password": true,
+			"shared-credentials": true,
 			"folder": "New folder/123",
 			"configuration": {
 				"host": "localhost",
