@@ -3,7 +3,8 @@
 		"New folder": {},
 		"123": {
 			"parent": "New folder"
-		}
+		},
+		"New folder22": {}
 	},
 	"connections": {
 		"postgres-jdbc-19cbce2098d-2d32c336d572275e": {
