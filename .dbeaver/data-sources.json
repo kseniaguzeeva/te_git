@@ -1,16 +1,17 @@
 {
 	"folders": {
 		"New folder": {},
+		"New folder22": {},
 		"123": {
 			"parent": "New folder"
-		},
-		"New folder22": {}
+		}
 	},
 	"connections": {
 		"postgres-jdbc-19cbce2098d-2d32c336d572275e": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL@localhost",
+			"save-password": true,
 			"folder": "New folder",
 			"configuration": {
 				"host": "localhost",
@@ -30,7 +31,7 @@
 						"enabled": true,
 						"save-password": true,
 						"properties": {
-							"host": "db1.dev.dbeaver.infra",
+							"host": "db2.dev.dbeaver.infra",
 							"port": 22.0,
 							"authType": "PUBLIC_KEY",
 							"sshConnectTimeout": "10000",
