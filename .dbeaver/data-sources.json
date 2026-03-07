@@ -93,7 +93,7 @@
 		"postgres-jdbc-19cc65dd031-7444f627d2713b29": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
-			"name": "PostgreSQL@localhost copy",
+			"name": "copied",
 			"save-password": true,
 			"folder": "New folder",
 			"configuration": {
