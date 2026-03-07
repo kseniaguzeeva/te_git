@@ -89,6 +89,47 @@
 					"mcpEnabled": false
 				}
 			}
+		},
+		"postgres-jdbc-19cc65dd031-7444f627d2713b29": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL@localhost copy",
+			"save-password": true,
+			"folder": "New folder",
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true"
+				},
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"host": "db1.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PUBLIC_KEY",
+							"sshConnectTimeout": "10000",
+							"jumpServer.count": 0.0,
+							"implementation": "sshj",
+							"shareTunnels": true,
+							"localHost": "",
+							"remoteHost": ""
+						}
+					}
+				},
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"virtual-models": {"postgres-jdbc-19cbd22cfd0-394fe7477ae80de1":{"postgres":{"postgres":{":1datedelgit":{"constraints":{"VIRTUAL_PK":{"type":"vpk","useAllColumns":true}}}}}}},
