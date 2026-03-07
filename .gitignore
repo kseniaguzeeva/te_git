@@ -5,5 +5,7 @@
 *.erd
 .dbeaver/credentials-config*
 .dbeaver/project-metadata.json
+.dbeaver/data-sources*
+.dbeaver/project-settings.json
 .dbeaver/.configuration
 *.bak
