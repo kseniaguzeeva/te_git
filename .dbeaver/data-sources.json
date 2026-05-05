@@ -214,6 +214,26 @@
 					"autocommit": true
 				}
 			}
+		},
+		"postgres-jdbc-19df86cacc0-69e64ccfa508a766": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL@db2.dev.dbeaver.infr",
+			"save-password": true,
+			"folder": "New folder",
+			"configuration": {
+				"host": "db2.dev.dbeaver.infra",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://db2.dev.dbeaver.infra:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native",
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"virtual-models": {"postgres-jdbc-19cbd22cfd0-394fe7477ae80de1":{"postgres":{"postgres":{":1datedelgit":{"constraints":{"VIRTUAL_PK":{"type":"vpk","useAllColumns":true}}}}}}},
@@ -226,8 +246,8 @@
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,
-			"smart-commit-recover": false,
-			"auto-close-transactions": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
 			"close-transactions-period": 1800,
 			"auto-close-connections": true,
 			"close-connections-period": 14400
